@@ -1,7 +1,7 @@
 # Use the official PHP image with Apache
 FROM php:8.1-apache
 
-# Install system dependencies required by Laravel
+# Install system dependencies and PHP extensions required by Laravel
 RUN apt-get update && apt-get install -y \
     libpng-dev \
     libjpeg-dev \
